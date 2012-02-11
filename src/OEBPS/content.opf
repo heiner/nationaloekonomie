@@ -5,11 +5,13 @@
          unique-identifier="ISBN" version="2.0">
   <metadata>
     <dc:title>Nationalökonomie</dc:title>
+    <dc:description>Theorie des Handelns und Wirtschaftens</dc:description>
     <dc:creator>Ludwig von Mises</dc:creator>
     <dc:identifier opf:scheme="ISBN">3-88405-023-0</dc:identifier>
     <dc:language>de</dc:language>
     <dc:source>http://docs.mises.de/Mises/Mises_Nationaloekonomie.pdf</dc:source>
     <dc:publisher>Edition Union Genf</dc:publisher>
+    <dc:date>1940</dc:date>
     <meta name="cover" content="cover.jpg"/>
   </metadata>
   <manifest>
