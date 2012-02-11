@@ -1,0 +1,31 @@
+* What is this?
+
+  This is the German-language predecessor to the seminal
+  Human Action: A Treatise on Economics by Ludwig von Mises,
+  converted to ePub format.
+
+* Why?
+
+  Because I wanted to read it on my Android phone, and I wasn't
+  happy with the existing digital editions.
+
+  The inspiration for doing this, and most of my knowledge of the ePub
+  format, comes from the [[https://github.com/ieure/sicp][ePub version of SICP by ieure]]
+
+* How do I use it?
+
+  This is the raw source for the book. If you’d just like to read it,
+  you’ll find what you’re looking for [[https://github.com/heiner/nationaloekonomie/downloads][in the downloads tab]].
+
+* What about the English version?
+
+  The English-language version of this book is available in several
+  formats at [[http://mises.org/document/3250][mises.org]]
+
+* What’s left to do?
+
+** TODO Fix HTML
+
+** TODO Better footnotes
+
+** Probably lots of other things
