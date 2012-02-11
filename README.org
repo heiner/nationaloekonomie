@@ -10,7 +10,7 @@
   happy with the existing digital editions.
 
   The inspiration for doing this, and most of my knowledge of the ePub
-  format, comes from the [[https://github.com/ieure/sicp][ePub version of SICP by ieure]]
+  format, comes from the [[https://github.com/ieure/sicp][ePub version of SICP by ieure]].
 
 * How do I use it?
 
@@ -20,7 +20,7 @@
 * What about the English version?
 
   The English-language version of this book is available in several
-  formats at [[http://mises.org/document/3250][mises.org]]
+  formats at [[http://mises.org/document/3250][mises.org]].
 
 * What’s left to do?
 
