@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:opf="http://www.idpf.org/2007/opf"
+         unique-identifier="ISBN" version="2.0">
+  <metadata>
+    <dc:title>Nationalökonomie</dc:title>
+    <dc:creator>Ludwig von Mises</dc:creator>
+    <dc:identifier opf:scheme="ISBN">3-88405-023-0</dc:identifier>
+    <dc:language>de</dc:language>
+    <dc:source>http://docs.mises.de/Mises/Mises_Nationaloekonomie.pdf</dc:source>
+    <dc:publisher>Edition Union Genf</dc:publisher>
+    <!--<meta name="cover" content="cover.jpg"/>-->
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="p0s01" href="book-p0s01.html" media-type="application/xhtml+xml"/>
+    <item id="p0s02" href="book-p0s02.html" media-type="application/xhtml+xml"/>
+    <item id="p0s03" href="book-p0s03.html" media-type="application/xhtml+xml"/>
+    <item id="p0s04" href="book-p0s04.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01" href="book-p1c01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s01" href="book-p1c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s02" href="book-p1c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s03" href="book-p1c01s03.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s03e1" href="book-p1c01s03e1.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s03e2" href="book-p1c01s03e2.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s03e3" href="book-p1c01s03e3.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s03e4" href="book-p1c01s03e4.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s04" href="book-p1c01s04.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s04e1" href="book-p1c01s04e1.html" media-type="application/xhtml+xml"/>
+    <item id="p1c01s05" href="book-p1c01s05.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s01" href="book-p1c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s02" href="book-p1c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s03" href="book-p1c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s04" href="book-p1c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s05" href="book-p1c02s05.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s06" href="book-p1c02s06.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s07" href="book-p1c02s07.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s08" href="book-p1c02s08.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s09" href="book-p1c02s09.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s10" href="book-p1c02s10.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s11" href="book-p1c02s11.html" media-type="application/xhtml+xml"/>
+    <item id="p1c02s12" href="book-p1c02s12.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s01" href="book-p1c03s01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s01e1" href="book-p1c03s01e1.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s01e2" href="book-p1c03s01e2.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s01e3" href="book-p1c03s01e3.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s02" href="book-p1c03s02.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s02e1" href="book-p1c03s02e1.html" media-type="application/xhtml+xml"/>
+    <item id="p1c03s03" href="book-p1c03s03.html" media-type="application/xhtml+xml"/>
+    <item id="p1c04s01" href="book-p1c04s01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c04s02" href="book-p1c04s02.html" media-type="application/xhtml+xml"/>
+    <item id="p1c04s03" href="book-p1c04s03.html" media-type="application/xhtml+xml"/>
+    <item id="p1c04s04" href="book-p1c04s04.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s01" href="book-p1c05s01.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s02" href="book-p1c05s02.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s03" href="book-p1c05s03.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s03e1" href="book-p1c05s03e1.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s03e2" href="book-p1c05s03e2.html" media-type="application/xhtml+xml"/>
+    <item id="p1c05s04" href="book-p1c05s04.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01" href="book-p2c01.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s01" href="book-p2c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s02" href="book-p2c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s03" href="book-p2c01s03.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s04" href="book-p2c01s04.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s04e1" href="book-p2c01s04e1.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s05" href="book-p2c01s05.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s06" href="book-p2c01s06.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s06e1" href="book-p2c01s06e1.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s07" href="book-p2c01s07.html" media-type="application/xhtml+xml"/>
+    <item id="p2c01s08" href="book-p2c01s08.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s01" href="book-p2c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s02" href="book-p2c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s02e1" href="book-p2c02s02e1.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s02e2" href="book-p2c02s02e2.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s03" href="book-p2c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s03e2" href="book-p2c02s03e2.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s04" href="book-p2c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s05" href="book-p2c02s05.html" media-type="application/xhtml+xml"/>
+    <item id="p2c02s06" href="book-p2c02s06.html" media-type="application/xhtml+xml"/>
+    <item id="p2c03s01" href="book-p2c03s01.html" media-type="application/xhtml+xml"/>
+    <item id="p2c03s02" href="book-p2c03s02.html" media-type="application/xhtml+xml"/>
+    <item id="p2c03s03" href="book-p2c03s03.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01" href="book-p3c01.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01s01" href="book-p3c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01s02" href="book-p3c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01s02e1" href="book-p3c01s02e1.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01s03" href="book-p3c01s03.html" media-type="application/xhtml+xml"/>
+    <item id="p3c01s04" href="book-p3c01s04.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s01" href="book-p3c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s02" href="book-p3c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s03" href="book-p3c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s04" href="book-p3c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s05" href="book-p3c02s05.html" media-type="application/xhtml+xml"/>
+    <item id="p3c02s06" href="book-p3c02s06.html" media-type="application/xhtml+xml"/>
+    <item id="p3c03s01" href="book-p3c03s01.html" media-type="application/xhtml+xml"/>
+    <item id="p3c03s02" href="book-p3c03s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01" href="book-p4c01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s01" href="book-p4c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s02" href="book-p4c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s03" href="book-p4c01s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s03e1" href="book-p4c01s03e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s04" href="book-p4c01s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s05" href="book-p4c01s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s06" href="book-p4c01s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s07" href="book-p4c01s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s08" href="book-p4c01s08.html" media-type="application/xhtml+xml"/>
+    <item id="p4c01s08e1" href="book-p4c01s08e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s01" href="book-p4c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s02" href="book-p4c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s03" href="book-p4c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s04" href="book-p4c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s04e1" href="book-p4c02s04e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s05" href="book-p4c02s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s06" href="book-p4c02s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s07" href="book-p4c02s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s08" href="book-p4c02s08.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s09" href="book-p4c02s09.html" media-type="application/xhtml+xml"/>
+    <item id="p4c02s10" href="book-p4c02s10.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s01" href="book-p4c03s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s02" href="book-p4c03s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s03" href="book-p4c03s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s03e1" href="book-p4c03s03e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s04" href="book-p4c03s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s05" href="book-p4c03s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s06" href="book-p4c03s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s06e1" href="book-p4c03s06e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s07" href="book-p4c03s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s08" href="book-p4c03s08.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s09" href="book-p4c03s09.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s10" href="book-p4c03s10.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s11" href="book-p4c03s11.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s12" href="book-p4c03s12.html" media-type="application/xhtml+xml"/>
+    <item id="p4c03s13" href="book-p4c03s13.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s01" href="book-p4c04s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s02" href="book-p4c04s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s03" href="book-p4c04s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s03e1" href="book-p4c04s03e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s04" href="book-p4c04s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s05" href="book-p4c04s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s06" href="book-p4c04s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s07" href="book-p4c04s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s09" href="book-p4c04s09.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s10" href="book-p4c04s10.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s11" href="book-p4c04s11.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12" href="book-p4c04s12.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e1" href="book-p4c04s12e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e2" href="book-p4c04s12e2.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e3" href="book-p4c04s12e3.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e4" href="book-p4c04s12e4.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e5" href="book-p4c04s12e5.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e6" href="book-p4c04s12e6.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e7" href="book-p4c04s12e7.html" media-type="application/xhtml+xml"/>
+    <item id="p4c04s12e8" href="book-p4c04s12e8.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01" href="book-p4c05s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01e1" href="book-p4c05s01e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01e2" href="book-p4c05s01e2.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01e3" href="book-p4c05s01e3.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01e4" href="book-p4c05s01e4.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s01e5" href="book-p4c05s01e5.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s02" href="book-p4c05s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s03" href="book-p4c05s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s04" href="book-p4c05s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c05s05" href="book-p4c05s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c06s01" href="book-p4c06s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c06s02" href="book-p4c06s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c06s03" href="book-p4c06s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c06s04" href="book-p4c06s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c06s05" href="book-p4c06s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s01" href="book-p4c07s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s02" href="book-p4c07s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s03" href="book-p4c07s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s04" href="book-p4c07s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s05" href="book-p4c07s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s06" href="book-p4c07s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s07" href="book-p4c07s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s08" href="book-p4c07s08.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s09" href="book-p4c07s09.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s09e1" href="book-p4c07s09e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c07s09e2" href="book-p4c07s09e2.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s01" href="book-p4c08s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s02" href="book-p4c08s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s03" href="book-p4c08s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s04" href="book-p4c08s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s05" href="book-p4c08s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s06" href="book-p4c08s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s07" href="book-p4c08s07.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s08" href="book-p4c08s08.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s09" href="book-p4c08s09.html" media-type="application/xhtml+xml"/>
+    <item id="p4c08s09e1" href="book-p4c08s09e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s01" href="book-p4c09s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s02" href="book-p4c09s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s03" href="book-p4c09s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s04" href="book-p4c09s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s05" href="book-p4c09s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c09s05e1" href="book-p4c09s05e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s01" href="book-p4c10s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s02" href="book-p4c10s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s03" href="book-p4c10s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s04" href="book-p4c10s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s05" href="book-p4c10s05.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s06" href="book-p4c10s06.html" media-type="application/xhtml+xml"/>
+    <item id="p4c10s06e1" href="book-p4c10s06e1.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11" href="book-p4c11.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11s01" href="book-p4c11s01.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11s02" href="book-p4c11s02.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11s03" href="book-p4c11s03.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11s04" href="book-p4c11s04.html" media-type="application/xhtml+xml"/>
+    <item id="p4c11s05" href="book-p4c11s05.html" media-type="application/xhtml+xml"/>
+    <item id="p5c01" href="book-p5c01.html" media-type="application/xhtml+xml"/>
+    <item id="p5c01s01" href="book-p5c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p5c01s02" href="book-p5c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p5c02s01" href="book-p5c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p5c02s02" href="book-p5c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p5c02s03" href="book-p5c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p5c02s04" href="book-p5c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c01" href="book-p6c01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c01s01" href="book-p6c01s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c01s02" href="book-p6c01s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c01s03" href="book-p6c01s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c01s05" href="book-p6c01s05.html" media-type="application/xhtml+xml"/>
+    <item id="p6c02s01" href="book-p6c02s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c02s02" href="book-p6c02s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c02s03" href="book-p6c02s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c02s04" href="book-p6c02s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c03s01" href="book-p6c03s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c03s02" href="book-p6c03s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c03s03" href="book-p6c03s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c03s04" href="book-p6c03s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c04s01" href="book-p6c04s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c04s02" href="book-p6c04s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c04s02e1" href="book-p6c04s02e1.html" media-type="application/xhtml+xml"/>
+    <item id="p6c05s01" href="book-p6c05s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c05s02" href="book-p6c05s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c05s03" href="book-p6c05s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c05s04" href="book-p6c05s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c05s05" href="book-p6c05s05.html" media-type="application/xhtml+xml"/>
+    <item id="p6c06s01" href="book-p6c06s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c06s02" href="book-p6c06s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c06s03" href="book-p6c06s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c07s01" href="book-p6c07s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c07s02" href="book-p6c07s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c07s03" href="book-p6c07s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c07s04" href="book-p6c07s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c08s01" href="book-p6c08s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c08s02" href="book-p6c08s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c09s01" href="book-p6c09s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c09s02" href="book-p6c09s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c09s03" href="book-p6c09s03.html" media-type="application/xhtml+xml"/>
+    <item id="p6c09s04" href="book-p6c09s04.html" media-type="application/xhtml+xml"/>
+    <item id="p6c09s05" href="book-p6c09s05.html" media-type="application/xhtml+xml"/>
+    <item id="p6c10s01" href="book-p6c10s01.html" media-type="application/xhtml+xml"/>
+    <item id="p6c10s02" href="book-p6c10s02.html" media-type="application/xhtml+xml"/>
+    <item id="p6c10s03" href="book-p6c10s03.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="p0s01" linear="yes"/>
+    <itemref idref="p0s02" linear="yes"/>
+    <itemref idref="p0s03" linear="yes"/>
+    <itemref idref="p0s04" linear="yes"/>
+    <itemref idref="p1c01" linear="yes"/>
+    <itemref idref="p1c01s01" linear="yes"/>
+    <itemref idref="p1c01s02" linear="yes"/>
+    <itemref idref="p1c01s03" linear="yes"/>
+    <itemref idref="p1c01s03e1" linear="yes"/>
+    <itemref idref="p1c01s03e2" linear="yes"/>
+    <itemref idref="p1c01s03e3" linear="yes"/>
+    <itemref idref="p1c01s03e4" linear="yes"/>
+    <itemref idref="p1c01s04" linear="yes"/>
+    <itemref idref="p1c01s04e1" linear="yes"/>
+    <itemref idref="p1c01s05" linear="yes"/>
+    <itemref idref="p1c02s01" linear="yes"/>
+    <itemref idref="p1c02s02" linear="yes"/>
+    <itemref idref="p1c02s03" linear="yes"/>
+    <itemref idref="p1c02s04" linear="yes"/>
+    <itemref idref="p1c02s05" linear="yes"/>
+    <itemref idref="p1c02s06" linear="yes"/>
+    <itemref idref="p1c02s07" linear="yes"/>
+    <itemref idref="p1c02s08" linear="yes"/>
+    <itemref idref="p1c02s09" linear="yes"/>
+    <itemref idref="p1c02s10" linear="yes"/>
+    <itemref idref="p1c02s11" linear="yes"/>
+    <itemref idref="p1c02s12" linear="yes"/>
+    <itemref idref="p1c03s01" linear="yes"/>
+    <itemref idref="p1c03s01e1" linear="yes"/>
+    <itemref idref="p1c03s01e2" linear="yes"/>
+    <itemref idref="p1c03s01e3" linear="yes"/>
+    <itemref idref="p1c03s02" linear="yes"/>
+    <itemref idref="p1c03s02e1" linear="yes"/>
+    <itemref idref="p1c03s03" linear="yes"/>
+    <itemref idref="p1c04s01" linear="yes"/>
+    <itemref idref="p1c04s02" linear="yes"/>
+    <itemref idref="p1c04s03" linear="yes"/>
+    <itemref idref="p1c04s04" linear="yes"/>
+    <itemref idref="p1c05s01" linear="yes"/>
+    <itemref idref="p1c05s02" linear="yes"/>
+    <itemref idref="p1c05s03" linear="yes"/>
+    <itemref idref="p1c05s03e1" linear="yes"/>
+    <itemref idref="p1c05s03e2" linear="yes"/>
+    <itemref idref="p1c05s04" linear="yes"/>
+    <itemref idref="p2c01" linear="yes"/>
+    <itemref idref="p2c01s01" linear="yes"/>
+    <itemref idref="p2c01s02" linear="yes"/>
+    <itemref idref="p2c01s03" linear="yes"/>
+    <itemref idref="p2c01s04" linear="yes"/>
+    <itemref idref="p2c01s04e1" linear="yes"/>
+    <itemref idref="p2c01s05" linear="yes"/>
+    <itemref idref="p2c01s06" linear="yes"/>
+    <itemref idref="p2c01s06e1" linear="yes"/>
+    <itemref idref="p2c01s07" linear="yes"/>
+    <itemref idref="p2c01s08" linear="yes"/>
+    <itemref idref="p2c02s01" linear="yes"/>
+    <itemref idref="p2c02s02" linear="yes"/>
+    <itemref idref="p2c02s02e1" linear="yes"/>
+    <itemref idref="p2c02s02e2" linear="yes"/>
+    <itemref idref="p2c02s03" linear="yes"/>
+    <itemref idref="p2c02s03e2" linear="yes"/>
+    <itemref idref="p2c02s04" linear="yes"/>
+    <itemref idref="p2c02s05" linear="yes"/>
+    <itemref idref="p2c02s06" linear="yes"/>
+    <itemref idref="p2c03s01" linear="yes"/>
+    <itemref idref="p2c03s02" linear="yes"/>
+    <itemref idref="p2c03s03" linear="yes"/>
+    <itemref idref="p3c01" linear="yes"/>
+    <itemref idref="p3c01s01" linear="yes"/>
+    <itemref idref="p3c01s02" linear="yes"/>
+    <itemref idref="p3c01s02e1" linear="yes"/>
+    <itemref idref="p3c01s03" linear="yes"/>
+    <itemref idref="p3c01s04" linear="yes"/>
+    <itemref idref="p3c02s01" linear="yes"/>
+    <itemref idref="p3c02s02" linear="yes"/>
+    <itemref idref="p3c02s03" linear="yes"/>
+    <itemref idref="p3c02s04" linear="yes"/>
+    <itemref idref="p3c02s05" linear="yes"/>
+    <itemref idref="p3c02s06" linear="yes"/>
+    <itemref idref="p3c03s01" linear="yes"/>
+    <itemref idref="p3c03s02" linear="yes"/>
+    <itemref idref="p4c01" linear="yes"/>
+    <itemref idref="p4c01s01" linear="yes"/>
+    <itemref idref="p4c01s02" linear="yes"/>
+    <itemref idref="p4c01s03" linear="yes"/>
+    <itemref idref="p4c01s03e1" linear="yes"/>
+    <itemref idref="p4c01s04" linear="yes"/>
+    <itemref idref="p4c01s05" linear="yes"/>
+    <itemref idref="p4c01s06" linear="yes"/>
+    <itemref idref="p4c01s07" linear="yes"/>
+    <itemref idref="p4c01s08" linear="yes"/>
+    <itemref idref="p4c01s08e1" linear="yes"/>
+    <itemref idref="p4c02s01" linear="yes"/>
+    <itemref idref="p4c02s02" linear="yes"/>
+    <itemref idref="p4c02s03" linear="yes"/>
+    <itemref idref="p4c02s04" linear="yes"/>
+    <itemref idref="p4c02s04e1" linear="yes"/>
+    <itemref idref="p4c02s05" linear="yes"/>
+    <itemref idref="p4c02s06" linear="yes"/>
+    <itemref idref="p4c02s07" linear="yes"/>
+    <itemref idref="p4c02s08" linear="yes"/>
+    <itemref idref="p4c02s09" linear="yes"/>
+    <itemref idref="p4c02s10" linear="yes"/>
+    <itemref idref="p4c03s01" linear="yes"/>
+    <itemref idref="p4c03s02" linear="yes"/>
+    <itemref idref="p4c03s03" linear="yes"/>
+    <itemref idref="p4c03s03e1" linear="yes"/>
+    <itemref idref="p4c03s04" linear="yes"/>
+    <itemref idref="p4c03s05" linear="yes"/>
+    <itemref idref="p4c03s06" linear="yes"/>
+    <itemref idref="p4c03s06e1" linear="yes"/>
+    <itemref idref="p4c03s07" linear="yes"/>
+    <itemref idref="p4c03s08" linear="yes"/>
+    <itemref idref="p4c03s09" linear="yes"/>
+    <itemref idref="p4c03s10" linear="yes"/>
+    <itemref idref="p4c03s11" linear="yes"/>
+    <itemref idref="p4c03s12" linear="yes"/>
+    <itemref idref="p4c03s13" linear="yes"/>
+    <itemref idref="p4c04s01" linear="yes"/>
+    <itemref idref="p4c04s02" linear="yes"/>
+    <itemref idref="p4c04s03" linear="yes"/>
+    <itemref idref="p4c04s03e1" linear="yes"/>
+    <itemref idref="p4c04s04" linear="yes"/>
+    <itemref idref="p4c04s05" linear="yes"/>
+    <itemref idref="p4c04s06" linear="yes"/>
+    <itemref idref="p4c04s07" linear="yes"/>
+    <itemref idref="p4c04s09" linear="yes"/>
+    <itemref idref="p4c04s10" linear="yes"/>
+    <itemref idref="p4c04s11" linear="yes"/>
+    <itemref idref="p4c04s12" linear="yes"/>
+    <itemref idref="p4c04s12e1" linear="yes"/>
+    <itemref idref="p4c04s12e2" linear="yes"/>
+    <itemref idref="p4c04s12e3" linear="yes"/>
+    <itemref idref="p4c04s12e4" linear="yes"/>
+    <itemref idref="p4c04s12e5" linear="yes"/>
+    <itemref idref="p4c04s12e6" linear="yes"/>
+    <itemref idref="p4c04s12e7" linear="yes"/>
+    <itemref idref="p4c04s12e8" linear="yes"/>
+    <itemref idref="p4c05s01" linear="yes"/>
+    <itemref idref="p4c05s01e1" linear="yes"/>
+    <itemref idref="p4c05s01e2" linear="yes"/>
+    <itemref idref="p4c05s01e3" linear="yes"/>
+    <itemref idref="p4c05s01e4" linear="yes"/>
+    <itemref idref="p4c05s01e5" linear="yes"/>
+    <itemref idref="p4c05s02" linear="yes"/>
+    <itemref idref="p4c05s03" linear="yes"/>
+    <itemref idref="p4c05s04" linear="yes"/>
+    <itemref idref="p4c05s05" linear="yes"/>
+    <itemref idref="p4c06s01" linear="yes"/>
+    <itemref idref="p4c06s02" linear="yes"/>
+    <itemref idref="p4c06s03" linear="yes"/>
+    <itemref idref="p4c06s04" linear="yes"/>
+    <itemref idref="p4c06s05" linear="yes"/>
+    <itemref idref="p4c07s01" linear="yes"/>
+    <itemref idref="p4c07s02" linear="yes"/>
+    <itemref idref="p4c07s03" linear="yes"/>
+    <itemref idref="p4c07s04" linear="yes"/>
+    <itemref idref="p4c07s05" linear="yes"/>
+    <itemref idref="p4c07s06" linear="yes"/>
+    <itemref idref="p4c07s07" linear="yes"/>
+    <itemref idref="p4c07s08" linear="yes"/>
+    <itemref idref="p4c07s09" linear="yes"/>
+    <itemref idref="p4c07s09e1" linear="yes"/>
+    <itemref idref="p4c07s09e2" linear="yes"/>
+    <itemref idref="p4c08s01" linear="yes"/>
+    <itemref idref="p4c08s02" linear="yes"/>
+    <itemref idref="p4c08s03" linear="yes"/>
+    <itemref idref="p4c08s04" linear="yes"/>
+    <itemref idref="p4c08s05" linear="yes"/>
+    <itemref idref="p4c08s06" linear="yes"/>
+    <itemref idref="p4c08s07" linear="yes"/>
+    <itemref idref="p4c08s08" linear="yes"/>
+    <itemref idref="p4c08s09" linear="yes"/>
+    <itemref idref="p4c08s09e1" linear="yes"/>
+    <itemref idref="p4c09s01" linear="yes"/>
+    <itemref idref="p4c09s02" linear="yes"/>
+    <itemref idref="p4c09s03" linear="yes"/>
+    <itemref idref="p4c09s04" linear="yes"/>
+    <itemref idref="p4c09s05" linear="yes"/>
+    <itemref idref="p4c09s05e1" linear="yes"/>
+    <itemref idref="p4c10s01" linear="yes"/>
+    <itemref idref="p4c10s02" linear="yes"/>
+    <itemref idref="p4c10s03" linear="yes"/>
+    <itemref idref="p4c10s04" linear="yes"/>
+    <itemref idref="p4c10s05" linear="yes"/>
+    <itemref idref="p4c10s06" linear="yes"/>
+    <itemref idref="p4c10s06e1" linear="yes"/>
+    <itemref idref="p4c11" linear="yes"/>
+    <itemref idref="p4c11s01" linear="yes"/>
+    <itemref idref="p4c11s02" linear="yes"/>
+    <itemref idref="p4c11s03" linear="yes"/>
+    <itemref idref="p4c11s04" linear="yes"/>
+    <itemref idref="p4c11s05" linear="yes"/>
+    <itemref idref="p5c01" linear="yes"/>
+    <itemref idref="p5c01s01" linear="yes"/>
+    <itemref idref="p5c01s02" linear="yes"/>
+    <itemref idref="p5c02s01" linear="yes"/>
+    <itemref idref="p5c02s02" linear="yes"/>
+    <itemref idref="p5c02s03" linear="yes"/>
+    <itemref idref="p5c02s04" linear="yes"/>
+    <itemref idref="p6c01" linear="yes"/>
+    <itemref idref="p6c01s01" linear="yes"/>
+    <itemref idref="p6c01s02" linear="yes"/>
+    <itemref idref="p6c01s03" linear="yes"/>
+    <itemref idref="p6c01s05" linear="yes"/>
+    <itemref idref="p6c02s01" linear="yes"/>
+    <itemref idref="p6c02s02" linear="yes"/>
+    <itemref idref="p6c02s03" linear="yes"/>
+    <itemref idref="p6c02s04" linear="yes"/>
+    <itemref idref="p6c03s01" linear="yes"/>
+    <itemref idref="p6c03s02" linear="yes"/>
+    <itemref idref="p6c03s03" linear="yes"/>
+    <itemref idref="p6c03s04" linear="yes"/>
+    <itemref idref="p6c04s01" linear="yes"/>
+    <itemref idref="p6c04s02" linear="yes"/>
+    <itemref idref="p6c04s02e1" linear="yes"/>
+    <itemref idref="p6c05s01" linear="yes"/>
+    <itemref idref="p6c05s02" linear="yes"/>
+    <itemref idref="p6c05s03" linear="yes"/>
+    <itemref idref="p6c05s04" linear="yes"/>
+    <itemref idref="p6c05s05" linear="yes"/>
+    <itemref idref="p6c06s01" linear="yes"/>
+    <itemref idref="p6c06s02" linear="yes"/>
+    <itemref idref="p6c06s03" linear="yes"/>
+    <itemref idref="p6c07s01" linear="yes"/>
+    <itemref idref="p6c07s02" linear="yes"/>
+    <itemref idref="p6c07s03" linear="yes"/>
+    <itemref idref="p6c07s04" linear="yes"/>
+    <itemref idref="p6c08s01" linear="yes"/>
+    <itemref idref="p6c08s02" linear="yes"/>
+    <itemref idref="p6c09s01" linear="yes"/>
+    <itemref idref="p6c09s02" linear="yes"/>
+    <itemref idref="p6c09s03" linear="yes"/>
+    <itemref idref="p6c09s04" linear="yes"/>
+    <itemref idref="p6c09s05" linear="yes"/>
+    <itemref idref="p6c10s01" linear="yes"/>
+    <itemref idref="p6c10s02" linear="yes"/>
+    <itemref idref="p6c10s03" linear="yes"/>
+  </spine>
+  <guide>
+    <reference href="book-intro.html" type="cover" title="Cover"/>
+  </guide>
+</package>
