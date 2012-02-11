@@ -14,6 +14,12 @@
     <text>Ludwig von Mises</text>
   </docAuthor>
   <navMap>
+    <navPoint playOrder="0" id="navPoint-0">
+      <navLabel>
+        <text>Nationalökonomie</text>
+      </navLabel>
+      <content src="book-front.html"/>
+    </navPoint>
     <navPoint playOrder="1" id="navPoint-1">
       <navLabel>
         <text>EINLEITUNG</text>

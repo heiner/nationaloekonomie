@@ -10,10 +10,12 @@
     <dc:language>de</dc:language>
     <dc:source>http://docs.mises.de/Mises/Mises_Nationaloekonomie.pdf</dc:source>
     <dc:publisher>Edition Union Genf</dc:publisher>
-    <!--<meta name="cover" content="cover.jpg"/>-->
+    <meta name="cover" content="cover.jpg"/>
   </metadata>
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="book" href="book.html" media-type="application/xhtml+xml"/>
+    <item id="front" href="book-front.html" media-type="application/xhtml+xml"/>
     <item id="p0s01" href="book-p0s01.html" media-type="application/xhtml+xml"/>
     <item id="p0s02" href="book-p0s02.html" media-type="application/xhtml+xml"/>
     <item id="p0s03" href="book-p0s03.html" media-type="application/xhtml+xml"/>
@@ -252,8 +254,11 @@
     <item id="p6c10s01" href="book-p6c10s01.html" media-type="application/xhtml+xml"/>
     <item id="p6c10s02" href="book-p6c10s02.html" media-type="application/xhtml+xml"/>
     <item id="p6c10s03" href="book-p6c10s03.html" media-type="application/xhtml+xml"/>
+
+    <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
   </manifest>
   <spine toc="ncx">
+    <itemref idref="front" linear="yes"/>
     <itemref idref="p0s01" linear="yes"/>
     <itemref idref="p0s02" linear="yes"/>
     <itemref idref="p0s03" linear="yes"/>
@@ -494,6 +499,6 @@
     <itemref idref="p6c10s03" linear="yes"/>
   </spine>
   <guide>
-    <reference href="book-intro.html" type="cover" title="Cover"/>
+    <reference href="book.html" type="cover" title="Cover"/>
   </guide>
 </package>
