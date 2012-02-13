@@ -42,6 +42,22 @@ TOCLIST.each do |title, page|
   last_page = page
 end
 
+TOC.each_with_index do |entry, index|
+  title, page = TOCLIST[index]
+  page = page.first if page.kind_of?(Array)
+  type, name, title = entry
+
+  0.upto(index) do |i|
+    t, p = TOCLIST[i]
+    p = p.first if p.kind_of?(Array)
+    n = TOC[i][1]
+    if p == page and n != name
+      puts "Was #{n}, now #{name}"
+      TOC[i][1] = name
+    end
+  end
+end
+
 # pp TOC
 
 $counter = 1

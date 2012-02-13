@@ -923,48 +923,48 @@
             </navLabel>
             <content src="book-p4c04s12e1.html"/>
           </navPoint>
-          <navPoint playOrder="153" id="navPoint-153">
-            <navLabel>
-              <text>XIII. Die Grösse der Kassenbestände der einzelnen Wirte</text>
-            </navLabel>
-            <content src="book-p4c04s12e2.html"/>
           </navPoint>
-          <navPoint playOrder="154" id="navPoint-154">
-            <navLabel>
-              <text>XIV. Die Zahlungsbilanzen</text>
-            </navLabel>
-            <content src="book-p4c04s12e3.html"/>
-          </navPoint>
-          <navPoint playOrder="155" id="navPoint-155">
-            <navLabel>
-              <text>XV. Die Paritäten</text>
-            </navLabel>
-            <content src="book-p4c04s12e4.html"/>
-          </navPoint>
-          <navPoint playOrder="156" id="navPoint-156">
-            <navLabel>
-              <text>XVI. Die Zinsfussarbitrage und die Diskontpolitik der Notenbanken</text>
-            </navLabel>
-            <content src="book-p4c04s12e5.html"/>
-          </navPoint>
-          <navPoint playOrder="157" id="navPoint-157">
-            <navLabel>
-              <text>XVII. Sekundäre Tauschmittel, </text>
-            </navLabel>
-            <content src="book-p4c04s12e6.html"/>
-          </navPoint>
-          <navPoint playOrder="158" id="navPoint-158">
-            <navLabel>
-              <text>XVIII. Die inflationistische Geschichtsauffassung</text>
-            </navLabel>
-            <content src="book-p4c04s12e7.html"/>
-          </navPoint>
-          <navPoint playOrder="159" id="navPoint-159">
-            <navLabel>
-              <text>XIX. Die Goldwährung</text>
-            </navLabel>
-            <content src="book-p4c04s12e8.html"/>
-          </navPoint>
+        <navPoint playOrder="153" id="navPoint-153">
+          <navLabel>
+            <text>XIII. Die Grösse der Kassenbestände der einzelnen Wirte</text>
+          </navLabel>
+          <content src="book-p4c04s13.html"/>
+        </navPoint>
+        <navPoint playOrder="154" id="navPoint-154">
+          <navLabel>
+            <text>XIV. Die Zahlungsbilanzen</text>
+          </navLabel>
+          <content src="book-p4c04s14.html"/>
+        </navPoint>
+        <navPoint playOrder="155" id="navPoint-155">
+          <navLabel>
+            <text>XV. Die Paritäten</text>
+          </navLabel>
+          <content src="book-p4c04s15.html"/>
+        </navPoint>
+        <navPoint playOrder="156" id="navPoint-156">
+          <navLabel>
+            <text>XVI. Die Zinsfussarbitrage und die Diskontpolitik der Notenbanken</text>
+          </navLabel>
+          <content src="book-p4c04s16.html"/>
+        </navPoint>
+        <navPoint playOrder="157" id="navPoint-157">
+          <navLabel>
+            <text>XVII. Sekundäre Tauschmittel, </text>
+          </navLabel>
+          <content src="book-p4c04s17.html"/>
+        </navPoint>
+        <navPoint playOrder="158" id="navPoint-158">
+          <navLabel>
+            <text>XVIII. Die inflationistische Geschichtsauffassung</text>
+          </navLabel>
+          <content src="book-p4c04s18.html"/>
+        </navPoint>
+        <navPoint playOrder="159" id="navPoint-159">
+          <navLabel>
+            <text>XIX. Die Goldwährung</text>
+          </navLabel>
+          <content src="book-p4c04s19.html"/>
         </navPoint>
       </navPoint>
       <navPoint playOrder="160" id="navPoint-160">
@@ -983,54 +983,54 @@
             </navLabel>
             <content src="book-p4c05s01e1.html"/>
           </navPoint>
-          <navPoint playOrder="163" id="navPoint-163">
-            <navLabel>
-              <text>II. Der praxeologische Beweis für die Höhenwertung zeitlich näherer Befriedigung</text>
-            </navLabel>
-            <content src="book-p4c05s01e2.html"/>
-          </navPoint>
-          <navPoint playOrder="164" id="navPoint-164">
-            <navLabel>
-              <text>III. Die Kapitalgüter</text>
-            </navLabel>
-            <content src="book-p4c05s01e3.html"/>
-          </navPoint>
-          <navPoint playOrder="165" id="navPoint-165">
-            <navLabel>
-              <text>IV. Produktionszeit, Wartezeit, Vorsorgezeit.</text>
-            </navLabel>
-            <content src="book-p4c05s01e4.html"/>
-          </navPoint>
+        </navPoint>
+        <navPoint playOrder="163" id="navPoint-163">
+          <navLabel>
+            <text>II. Der praxeologische Beweis für die Höhenwertung zeitlich näherer Befriedigung</text>
+          </navLabel>
+          <content src="book-p4c05s02.html"/>
+        </navPoint>
+        <navPoint playOrder="164" id="navPoint-164">
+          <navLabel>
+            <text>III. Die Kapitalgüter</text>
+          </navLabel>
+          <content src="book-p4c05s03.html"/>
+        </navPoint>
+        <navPoint playOrder="165" id="navPoint-165">
+          <navLabel>
+            <text>IV. Produktionszeit, Wartezeit, Vorsorgezeit.</text>
+          </navLabel>
+          <content src="book-p4c05s04.html"/>
           <navPoint playOrder="166" id="navPoint-166">
             <navLabel>
               <text>Exkurs: Erstreckung der Vorsorgezeit über die erwartete Lebensdauer hinaus</text>
             </navLabel>
-            <content src="book-p4c05s01e5.html"/>
+            <content src="book-p4c05s04e1.html"/>
           </navPoint>
         </navPoint>
         <navPoint playOrder="167" id="navPoint-167">
           <navLabel>
             <text>V. Die Lenkbarkeit der Kapitalgüter</text>
           </navLabel>
-          <content src="book-p4c05s02.html"/>
+          <content src="book-p4c05s05.html"/>
         </navPoint>
         <navPoint playOrder="168" id="navPoint-168">
           <navLabel>
             <text>VI. Das Kapital als Träger einer Einwirkung der Vergangenheit auf Produktion und Verbrauch</text>
           </navLabel>
-          <content src="book-p4c05s03.html"/>
+          <content src="book-p4c05s06.html"/>
         </navPoint>
         <navPoint playOrder="169" id="navPoint-169">
           <navLabel>
             <text>VII. Kapitalersatz, Kapitalneubildung, Kapitalaufzehrung</text>
           </navLabel>
-          <content src="book-p4c05s04.html"/>
+          <content src="book-p4c05s07.html"/>
         </navPoint>
         <navPoint playOrder="170" id="navPoint-170">
           <navLabel>
             <text>VIII. Geld und Kapital; Sparen und Investieren.</text>
           </navLabel>
-          <content src="book-p4c05s05.html"/>
+          <content src="book-p4c05s08.html"/>
         </navPoint>
       </navPoint>
       <navPoint playOrder="171" id="navPoint-171">
