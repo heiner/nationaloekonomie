@@ -6,7 +6,7 @@ term = Termios::getattr( $stdin )
 term.c_lflag &= ~Termios::ICANON
 Termios::setattr( $stdin, Termios::TCSANOW, term )
 
-regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+)-
+regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+\ )
             \s* </p> \s* (?:<p> \s* </p> \s*)?
             (<!--\ page\ [0-9]+\ -->)
             \s* <p> \s*
@@ -17,18 +17,19 @@ ARGV.each do |fn|
   contents = File.read(fn)
   success = \
   contents.gsub!(regex) do |match|
-    # next match if ["http-equiv", "text-align"].include?(match)
-    replacement = $1 + $2 + $3
-
-    next replacement
+    replacement = $1 + $2 + " " + $3
 
     puts "Change \"#{match}\" to \"#{replacement}\"? "
+    #next replacement
+
     begin
       c = STDIN.getc.chr
       puts unless c == "\n"
       case c
       when 'n', 'N'
         match
+      when 'q'
+        exit
       else
         replacement
       end
