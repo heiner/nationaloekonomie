@@ -52,7 +52,7 @@ TOC.each_with_index do |entry, index|
     p = p.first if p.kind_of?(Array)
     n = TOC[i][1]
     if p == page and n != name
-      puts "Was #{n}, now #{name}"
+      # puts "Was #{n}, now #{name}"
       TOC[i][1] = name
     end
   end
