@@ -1663,29 +1663,29 @@
           <content src="book-p6c09s05.html"/>
         </navPoint>
       </navPoint>
-      <navPoint playOrder="276" id="navPoint-276">
+    </navPoint>
+    <navPoint playOrder="276" id="navPoint-276">
+      <navLabel>
+        <text>SCHLUSSWORT</text>
+      </navLabel>
+      <content src="book-p6c10s01.html"/>
+      <navPoint playOrder="277" id="navPoint-277">
         <navLabel>
-          <text>SCHLUSSWORT</text>
+          <text>I. Die Wissenschaft und das Leben</text>
         </navLabel>
         <content src="book-p6c10s01.html"/>
-        <navPoint playOrder="277" id="navPoint-277">
-          <navLabel>
-            <text>I. Die Wissenschaft und das Leben</text>
-          </navLabel>
-          <content src="book-p6c10s01.html"/>
-        </navPoint>
-        <navPoint playOrder="278" id="navPoint-278">
-          <navLabel>
-            <text>II. Die Wissenschaft und die Politik</text>
-          </navLabel>
-          <content src="book-p6c10s02.html"/>
-        </navPoint>
-        <navPoint playOrder="279" id="navPoint-279">
-          <navLabel>
-            <text>III. Die Wissenschaft und die Zukunft</text>
-          </navLabel>
-          <content src="book-p6c10s03.html"/>
-        </navPoint>
+      </navPoint>
+      <navPoint playOrder="278" id="navPoint-278">
+        <navLabel>
+          <text>II. Die Wissenschaft und die Politik</text>
+        </navLabel>
+        <content src="book-p6c10s02.html"/>
+      </navPoint>
+      <navPoint playOrder="279" id="navPoint-279">
+        <navLabel>
+          <text>III. Die Wissenschaft und die Zukunft</text>
+        </navLabel>
+        <content src="book-p6c10s03.html"/>
       </navPoint>
     </navPoint>
   </navMap>
