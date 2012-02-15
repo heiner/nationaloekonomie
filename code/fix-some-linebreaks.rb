@@ -6,32 +6,32 @@ term = Termios::getattr( $stdin )
 term.c_lflag &= ~Termios::ICANON
 Termios::setattr( $stdin, Termios::TCSANOW, term )
 
-regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+\ )
+regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+\.)
             \s* </p> \s* (?:<p> \s* </p> \s*)?
             (<!--\ page\ [0-9]+\ -->)
             \s* <p> \s*
-            ([a-zäöü]+)
+            ([A-ZÄÖÜ][a-zäöü]+)
           }x
 
 ARGV.each do |fn|
   contents = File.read(fn)
   success = \
   contents.gsub!(regex) do |match|
-    replacement = $1 + $2 + " " + $3
+    replacement = $1 + " " + $2 + " " + $3
 
-    puts "Change \"#{match}\" to \"#{replacement}\"? "
-    #next replacement
+    print "Change \"#{match}\" to \"#{replacement}\"? "
+    # next match
 
     begin
       c = STDIN.getc.chr
       puts unless c == "\n"
       case c
       when 'n', 'N'
-        match
+        next match
       when 'q'
         exit
       else
-        replacement
+        next replacement
       end
     rescue Interrupt
       exit
@@ -44,6 +44,6 @@ ARGV.each do |fn|
       f.write(contents)
     end
   else
-    puts "No match in #{fn}"
+    # puts "No match in #{fn}"
   end
 end
