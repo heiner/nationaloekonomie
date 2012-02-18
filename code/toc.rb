@@ -54,11 +54,11 @@ TOCLIST =
 ["Exkurs: Der nichthandelnde Mensch", [74, 3]],
 ["III. Das Handeln als Tausch. Wert und Preis. Kosten. Erfolg und Misserfolg. Gewinn und Verlust",  [75, 2]],
 
-["4. Kapitel: Zeit und Handeln", [76, 1]],
-["I. Die Zeitlichkeit der Praxeologie",  [76, 2]],
+["4. Kapitel: Zeit und Handeln", [76, CHAPTER]],
+["I. Die Zeitlichkeit der Praxeologie",  [76, SECTION]],
 ["II. Vergangenheit, Gegenwart, Zukunft", 77],
-["Exkurs: Das Denken modo futuri exacti", [80, 3]],
-["III. Die Bewirtschaftung der Zeit",  [80, 2]],
+["Exkurs: Das Denken modo futuri exacti", [80, EXKURS]],
+["III. Die Bewirtschaftung der Zeit",  [80, SECTION]],
 ["IV. Das Problem der Gleichzeitigkeit und die Vorstellung vermeintlich irrationalen Handelns",  81],
 
 ["5. Kapitel: Das Handeln in der Welt", [84, CHAPTER]],
