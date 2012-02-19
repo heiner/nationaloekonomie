@@ -3,40 +3,66 @@
 require '../../code/unbuffered-stdin'
 
 ### Regex for hyphenated word
-# regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+)-
-#             \s* </p> \s* (?:<p> \s* </p> \s*)?
-#             (<!--\ page\ [0-9]+\ -->)
-#             \s* <p> \s*
-#             ([a-zäöü]+)
-#           }x
+hyphenation_re =
+  %r{ ([A-ZÄÖÜ]?[a-zäöüß]+)-
+      \s* </p> \s* (?:<p> \s* </p> \s*)?
+      (<!--\ page\ [0-9]+\ -->)
+      \s* <p> \s*
+      ([a-zäöü]+)
+    }x
 
 ### Regex for broken-up sentence
-regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+(?:\ |,))
-            \s* </p> \s* (?:<p> \s* </p> \s*)?
-            (<!--\ page\ [0-9]+\ -->)
-            \s* <p> \s*
-            ([A-ZÄÖÜ]?[a-zäöü]+)
-          }x
+broken_sentence_re =
+  %r{ ([A-ZÄÖÜ]?[a-zäöüß]+
+       (?: \  | , | \s*&mdash;\s* | )
+      )
+      \s* </p> \s* (?:<p> \s* </p> \s*)?
+      (<!--\ page\ [0-9]+\ -->)
+      \s* <p> \s*
+      ([A-ZÄÖÜ]?[a-zäöü]+)
+    }x
 
 ### Regex for broken-up paragraphs
 ### Should probably not be "fixed"!
-# regex = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+\.)
+# broken_paragraph_re = %r{ ([A-ZÄÖÜ]?[a-zäöüß]+\.)
 #             \s* </p> \s* (?:<p> \s* </p> \s*)?
 #             (<!--\ page\ [0-9]+\ -->)
 #             \s* <p> \s*
 #             ([A-ZÄÖÜ][a-zäöü]+)
 #           }x
 
+broken_sentence_re2 =
+  %r{ ([A-ZÄÖÜ]?[a-zäöüß]+
+       (?: \  | ,\ ? | \s*&mdash;\s* )?
+      )
+      \s* <br> \s*
+      ([A-ZÄÖÜ]?[a-zäöü]+)
+    }x
+
+hyphenation_re2 =
+  %r{ ([A-ZÄÖÜ]?[a-zäöüß]+)-
+      \s* <br> \s*
+      ([a-zäöü]+)
+    }x
+
+ask = true
+
 ARGV.each do |fn|
   contents = File.read(fn)
+  regex = hyphenation_re2
+
   success = \
   contents.gsub!(regex) do |match|
-    # replacement = $1 + $2 + $3
-    replacement = $1 + $2 + " " + $3
-    # replacement = $1 + " " + $2 + " " + $3
+    # replacement = $1 + $2 + $3             # hyphenation_re
+    # replacement = $1 + $2 + " " + $3       # broken_sentence_re
+    # replacement = $1 + " " + $2 + " " + $3 # broken_paragraph_re
 
-    print "Change \"#{match}\" to \"#{replacement}\"? "
-    next replacement
+    replacement = $1 + $2                    # re2
+
+    puts "Change \"#{match}\" to \"#{replacement}\"? "
+    if not ask
+      next replacement
+    end
 
     begin
       c = STDIN.getc.chr
@@ -46,6 +72,9 @@ ARGV.each do |fn|
         next match
       when 'q'
         exit
+      when 'a'
+        ask = false
+        next replacement
       else
         next replacement
       end
