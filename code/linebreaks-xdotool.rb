@@ -8,11 +8,7 @@ require '../../code/unbuffered-stdin'
 
 hyphenation_re2 =
   %r{
-    ([A-ZÄÖÜ]?[a-zäöüß]+\s
-     [A-ZÄÖÜ]?[a-zäöüß]+\s
-     [A-ZÄÖÜ]?[a-zäöüß]+\s
-     [A-ZÄÖÜ]?[a-zäöüß]+\s
-     [A-ZÄÖÜ]?[a-zäöüß]+\ ?[\.?!:])\n
+    ([^\n<>]+)\]</small>\ ?\n
     ([A-ZÄÖÜ][a-zäöüß]+)
     }x
 
@@ -58,7 +54,7 @@ ARGV.each do |fn|
 
   success = \
   contents.gsub!(regex) do |match|
-    replacement = $1 + "</p>\n<p>" + $2
+    replacement = $1 + "]</small></p>\n<p>" + $2
 
     search = $1
 
